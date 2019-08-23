@@ -20,7 +20,7 @@ def monopoly_with_third_tier
 			:dos => {} ,
 			:tres => {} ,
 			:cuatro => {} ,
-			
+
 			} ,
 		}
 	}
