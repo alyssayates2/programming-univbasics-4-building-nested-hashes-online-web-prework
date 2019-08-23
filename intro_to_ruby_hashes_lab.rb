@@ -15,7 +15,13 @@ def monopoly_with_third_tier
 		:four => {}
 		}  ,
 		:pieces => 4 ,
-		:names => {} ,
+		:names => {
+			:uno => {} ,
+			:dos => {} ,
+			:tres => {} ,
+			:cuatro => {} ,
+			
+			} ,
 		}
 	}
 end
