@@ -9,11 +9,15 @@ end
 
 def monopoly_with_third_tier
   { :railroads => {:rent_in_dollars => {
-		:names => {} ,
+		:one => {} ,
 		:two => {} ,
 		:three => {} ,
-		:four => {}
-		}  , :pieces => 4 } }
+		:four => {} 
+		} } ,
+		:pieces => {4} ,
+		:names => {} ,   
+
+	}
 end
 
 def monopoly_with_fourth_tier
