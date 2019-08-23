@@ -12,7 +12,7 @@ def monopoly_with_third_tier
 		:one => {} ,
 		:two => {} ,
 		:three => {} ,
-		:four => {} 
+		:four => {}
 		} } ,
 		:pieces => {4} ,
 		:names => {} ,   
