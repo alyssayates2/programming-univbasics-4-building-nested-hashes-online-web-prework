@@ -8,7 +8,12 @@ def monopoly_with_second_tier
 end
 
 def monopoly_with_third_tier
-  { :railroads => {rent_in_dollars: "" , :pieces => 4 } }
+  { :railroads => {:rent_in_dollars => {
+		:one => {} ,
+		:two => {} ,
+		:three => {} ,
+		:four => {} 
+		}  , :pieces => 4 } }
 end
 
 def monopoly_with_fourth_tier
